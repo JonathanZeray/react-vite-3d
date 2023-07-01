@@ -9,14 +9,14 @@ const Shape = () => {
     <>
       <Sphere args={[1.3, 64, 64]}>
         <MeshDistortMaterial
-          color={"#010101"}
+          color={"#090909"}
           roughness={0.1}
           metalness={1}
           bumpScale={0.005}
           clearcoat={1}
           clearcoatRoughness={1}
-          radius={1}
-          distort={0.4}
+          radius={1.2}
+          distort={0.5}
           envMap={envMap}
         />
       </Sphere>

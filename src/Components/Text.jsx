@@ -1,7 +1,13 @@
+const transcription = 'zɛˈɹaɪ';
 const Text = () => {
     return (
-        <h1>ZERAY.</h1>
-    )
-}
+    <>
+    <div className="text-container">
+      <h1>ZERAY.</h1>
+      <p> [{transcription}] </p>
+    </div>
+    </>
+  );
+};
 
 export default Text;
