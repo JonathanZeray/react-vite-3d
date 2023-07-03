@@ -1,0 +1,20 @@
+.text-container {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Landing-header {
+    font-size: 13vh;
+    color: #000;
+    font-family: 'Bagel Fat One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.Landing-transcript {
+    font-size: 6vh;
+    text-align: center;
+    margin: 0;
+}
