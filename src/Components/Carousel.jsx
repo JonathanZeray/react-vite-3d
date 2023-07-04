@@ -44,13 +44,11 @@ export function Carousel() {
           <div className="section-one">
             <InView threshold={0.25}>
               {({ ref, inView }) => (
-                <motion.img
+                <motion.div className="test"
                   ref={ref}
                   initial={{ opacity: 0 }}
-                  animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                  src="/images/space-timeline-1.png"
-                  alt=""
-                />
+                  animate={inView ? { opacity: 1 } : { opacity: 0 }}>
+                    </motion.div>
               )}
             </InView>
           </div>
@@ -58,25 +56,24 @@ export function Carousel() {
         <div className="section-two panel">
           <InView threshold={0.25}>
             {({ ref, inView }) => (
-              <motion.img
+              <motion.div className="test2"
                 ref={ref}
                 initial={{ opacity: 0 }}
                 animate={inView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 1 }}
-                src="/images/space-timeline-2.png"
-                alt=""
-              />
+              > </motion.div>
             )}
           </InView>
         </div>
         <div className="section-three panel">
         <InView threshold={0.25}>
               {({ ref, inView }) => (
-                <motion.img
+                <motion.div className="test3"
                   ref={ref}
                   initial={{ opacity: 0 }}
                   animate={inView ? { opacity: 1 } : { opacity: 0 }}
-          src="/images/space-timeline-3.png" alt="" />
+          >
+            </motion.div>
               )}
               </InView>
         </div>
