@@ -1,4 +1,5 @@
 import "./Playground.css"
+import { Carousel } from "./Carousel";
 
 const Playground = () => {
   return (
@@ -6,6 +7,7 @@ const Playground = () => {
   <div className="playground-container">
   <h1>Hi there</h1>
   </div>
+  <Carousel />
   </>
   );
 };
