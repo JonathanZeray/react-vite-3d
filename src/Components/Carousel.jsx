@@ -1,12 +1,3 @@
-// const Carousel = () => {
-//     return (
-//         <>
-//         </>
-//     )
-// }
-
-// export default Carousel;
-
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useLayoutEffect, useRef } from "react";

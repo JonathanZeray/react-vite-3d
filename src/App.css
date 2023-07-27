@@ -21,11 +21,13 @@ canvas {
 .nav > a {
     font-family: 'Belanosima', sans-serif;
     color: black;
+    color: #008080;
+    text-decoration-color: #008080;
     text-underline-offset: 4px;
     margin: 5vh 2.5vw 0 2.5vw;
     transition: all 0.5s ease-in-out;
 }
 
-.nav > a:hover {
+/* .nav > a:hover {
     transform: scale(1.025);
-}
+} */
