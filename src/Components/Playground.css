@@ -8,17 +8,18 @@ body {
     color: #008080;
     background-color: #f5fde6;
 }
+
+.playground-container {
+    height: 100vh;
+}
 .playground-heading {
+    font-family: 'Belanosima', sans-serif;
     opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 112px;
-}
-
-.random-images {
-    height: 100vh;
 }
 
 .random-images > .box  > img {
@@ -85,7 +86,15 @@ body {
     opacity: 0;
 }
 
-h1 {
-    font-family: 'Belanosima', sans-serif;
+.text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+.text-section > p {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
