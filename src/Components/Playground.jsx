@@ -125,6 +125,7 @@ const Playground = () => {
         </div>
       </div>
       <div className="text-section">
+        <h1>The Gap</h1>
         <p>
           “Nobody tells this to people who are beginners, I wish someone told
           me. All of us who do creative work, we get into it because we have good

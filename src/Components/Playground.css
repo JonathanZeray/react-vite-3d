@@ -88,13 +88,18 @@ body {
 
 .text-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.text-section > h1 {
+    font-size: 48px;
 }
 
 .text-section > p {
-    font-family: 'Belanosima', sans-serif;
     font-size: 18px;
     line-height: 1.4;
 }
