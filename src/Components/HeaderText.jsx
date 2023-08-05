@@ -1,4 +1,4 @@
-import "./Text.css"
+import "./HeaderText.css"
 
 const transcription = 'zɛˈɹaɪ';
 const Text = () => {

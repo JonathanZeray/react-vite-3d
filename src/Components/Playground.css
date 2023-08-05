@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     /* background-color: #bf2177;
     color: #e7ebb9; */
@@ -7,10 +11,12 @@ body {
 
     color: #008080;
     background-color: #f5fde6;
+    overflow-x: hidden;
 }
 
 .playground-container {
     height: 100vh;
+    overflow-x: hidden;
 }
 .playground-heading {
     font-family: 'Belanosima', sans-serif;
@@ -99,7 +105,9 @@ body {
     font-size: 48px;
 }
 
-.text-section > p {
+.text-section-p {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 15px;
 }

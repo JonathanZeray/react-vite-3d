@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { PresentationControls } from "@react-three/drei";
 import { useCubeTexture, MeshDistortMaterial, Sphere } from "@react-three/drei";
-import Text from "./Text";
+import HeaderText from "./HeaderText";
 
 const Shape = () => {
   const envMap = useCubeTexture(
@@ -27,7 +27,7 @@ const Shape = () => {
           </Sphere>
         </PresentationControls>
       </Canvas>
-      <Text />
+      <HeaderText />
     </>
   );
 };

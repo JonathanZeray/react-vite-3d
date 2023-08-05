@@ -1,27 +1,35 @@
-import "./Playground.css";
-import { Carousel } from "./Carousel";
 import gsap from "gsap";
 import { useEffect } from "react";
+import TextVisible  from "./TextVisible";
+import "./Playground.css";
 
 const Playground = () => {
   useEffect(() => {
     const imgElements = document.querySelectorAll('.box');
 
     imgElements.forEach((img, index) => {
-      const imgAnimationDelay = 0.5 + index * 0.5;
+      const imgAnimationDelay = 0.5 + index * 0.4;
 
       gsap.to(img, { opacity: 1, duration: 0.5, delay: imgAnimationDelay })
     }); 
 
 
-    gsap.to(".img-1", { rotation: 4, xPercent: 150, duration: 1, delay: 4.3 });
+    gsap.to(".img-1", { 
+      rotation: 4, 
+      xPercent: 220, 
+      duration: 1, 
+      delay: 4.3 });
     gsap.to(".img-2", {
       rotation: -8,
       xPercent: -250,
       duration: 1,
       delay: 4.3,
     });
-    gsap.to(".img-3", { rotation: 4, yPercent: 100, duration: 1, delay: 4.3 });
+    gsap.to(".img-3", { 
+      rotation: 4, 
+      yPercent: 170, 
+      duration: 1, 
+      delay: 4.3 });
     gsap.to(".img-4", {
       rotation: -8,
       yPercent: -150,
@@ -30,28 +38,28 @@ const Playground = () => {
     });
     gsap.to(".img-5", {
       rotation: 12,
-      xPercent: -185,
-      yPercent: -150,
+      xPercent: -175,
+      yPercent: -120,
       duration: 1,
       delay: 4.3,
     });
     gsap.to(".img-6", {
       rotation: -4,
       xPercent: -200,
-      yPercent: 60,
+      yPercent: 125,
       duration: 1,
       delay: 4.3,
     });
     gsap.to(".img-7", {
       rotation: 3,
-      xPercent: 120,
-      yPercent: 70,
+      xPercent: 220,
+      yPercent: 140,
       duration: 1,
       delay: 4.3,
     });
     gsap.to(".img-8", {
       rotation: -8,
-      xPercent: 80,
+      xPercent: 110,
       yPercent: -150,
       duration: 1,
       delay: 4.3,
@@ -126,7 +134,8 @@ const Playground = () => {
       </div>
       <div className="text-section">
         <h1>The Gap</h1>
-        <p>
+        <TextVisible > 
+        <p className="text-section-p">
           “Nobody tells this to people who are beginners, I wish someone told
           me. All of us who do creative work, we get into it because we have good
           taste. <br />
@@ -148,6 +157,7 @@ const Playground = () => {
           fight your way through.” <br /><br />
           - Ira Glass
         </p>
+        </TextVisible>
       </div>
     </>
   );
